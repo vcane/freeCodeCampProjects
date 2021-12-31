@@ -1,0 +1,97 @@
+body {
+  background-color: rgba(28, 148, 68, 1);
+  color: rgba(13, 17, 148, 1);
+  margin: 0;
+  font-size: 18px;
+  
+}
+
+main {
+  background-color: rgba(189, 222, 200, 1);
+  margin: 0 auto;
+  max-width: 760px;
+  padding: 1rem 2rem;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form fieldset {
+  margin: 1rem auto;
+  padding: 0.5rem 2rem 0.5rem 0.75rem;
+  background-color: rgba(126, 129, 224, 0.5);
+  box-shadow: 0 0 0.5rem 0.5rem rgba(13, 17, 148, 1);
+  border: 1px solid rgba(13, 17, 148, 1);
+  border-radius: 5px;
+  text-align: left;
+  width: 75%;
+}
+
+div.checkboxcontainer {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  align-items: center;
+}
+
+div.checkboxcontainer input[type=checkbox] {
+  justify-self: center;
+}
+
+legend {
+  font-size: 1em;
+  background-color: rgba(224, 128, 44, 1);
+  border: 1px solid rgba(13, 17, 148, 1);
+  border-radius: 5px;
+  margin: 0 10px;
+  padding: 0.5rem;
+}
+
+form label.top,
+form div label {
+  display: block;
+  padding: 0.75rem 0;
+
+}
+
+form label.top input,
+form input,
+form select,
+form label.top textarea {
+  
+  width: 100%;
+  padding: 0.75rem 0.5rem;
+  color: rgba(13, 17, 148, 1);
+  border: 1px solid rgba(13, 17, 148, 1);
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+input[type=radio], input[type=checkbox] {
+  width: 25px;
+  height: 25px;
+}
+
+p.preferred {
+  margin: 1.25em 0 0 0;
+
+}
+
+div.radio {
+  padding-left: 0.75rem;
+}
+
+form button#submit {
+  display: block;
+  padding: 0.75rem;
+  color: rgba(13, 17, 148, 1);
+  background-color: rgba(224, 128, 44, 1);
+  border: 3px solid rgba(13, 17, 148, 1);
+  border-radius: 1rem;
+  margin: 1rem 0 1rem 5rem;
+  font-size: 1.1rem;
+  width: 150px;
+}
+
+form button#submit:hover {
+  font-size: 1.25rem;
+  border: 3px dashed rgba(13, 17, 148, 1);
+}

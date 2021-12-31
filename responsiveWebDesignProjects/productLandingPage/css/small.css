@@ -1,0 +1,87 @@
+body {  
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(18, 66, 179, 1);
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header, footer {
+  background-color: rgba(148, 180, 255, 1);
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  position: sticky;
+  top: 0;
+  padding: 0.25rem;
+}
+
+picture img {
+  width: 120px;
+  padding: 0.5rem;
+}
+
+#nav-bar ul {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 0;
+  padding: 0.5rem;
+  list-style-type: none;
+  flex: 1 1 auto;
+}
+
+a.nav-link {
+  text-decoration: none;
+  padding: 0.75rem;
+  color: rgba(18, 66, 179, 1);
+  display: block;
+}
+
+main {
+  background-color: rgba(222, 252, 233, 1);  
+  padding: 1rem;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+  padding: 0.25rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.1rem;
+}
+
+p, a.nav-link {
+  font-size: 0.95rem;
+}
+
+div.pros p{
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+
+
+
+
+
+/* Color Theme Swatches in RGBA */
+.Crossbow-landing-page-1-rgba { color: rgba(5, 179, 69, 1); }
+.Crossbow-landing-page-2-rgba { color: rgba(222, 252, 233, 1); }
+.Crossbow-landing-page-3-rgba { color: rgba(255, 103, 0, 1); }
+.Crossbow-landing-page-4-rgba { color: rgba(18, 66, 179, 1); }
+.Crossbow-landing-page-5-rgba { color: rgba(148, 180, 255, 1); }
