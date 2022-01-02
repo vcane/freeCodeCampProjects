@@ -29,17 +29,16 @@ picture img {
 #nav-bar ul {
   display: flex;
   flex-flow: column wrap;
-  margin: 0;
-  padding: 0.5rem;
-  list-style-type: none;
   flex: 1 1 auto;
 }
 
 a.nav-link {
   text-decoration: none;
-  padding: 0.75rem;
+  padding: 0.5rem;
   color: rgba(18, 66, 179, 1);
   display: block;
+  font-weight: 600;
+  font-size: 1.25rem;
 }
 
 main {
@@ -65,23 +64,85 @@ h3 {
   font-size: 1.1rem;
 }
 
-p, a.nav-link {
+p, legend, label {
   font-size: 0.95rem;
 }
 
-div.pros p{
+div.pros p, #form fieldset p{
   text-align: left;
   margin-bottom: 1rem;
 }
 
+label {
+  padding: 0.25rem;
+  margin-bottom: 0.5rem;
+}
 
+input#submit {
+  background-color: rgba(255, 103, 0, 0.8);
+  font-weight: 700;
+}
 
+input {
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  color: inherit;
+  border: 2px solid rgba(18, 66, 179, 1);
+  border-radius: 0.5rem;
+}
 
+section.ad > ul, #nav-bar ul {
+  margin: 0;
+  padding: 0.5rem;
+  list-style-type: none;
+}
 
+section.ad ul li {
+  text-align: left;
+  padding: 0.25rem 0;
+}
 
-/* Color Theme Swatches in RGBA */
-.Crossbow-landing-page-1-rgba { color: rgba(5, 179, 69, 1); }
-.Crossbow-landing-page-2-rgba { color: rgba(222, 252, 233, 1); }
-.Crossbow-landing-page-3-rgba { color: rgba(255, 103, 0, 1); }
-.Crossbow-landing-page-4-rgba { color: rgba(18, 66, 179, 1); }
-.Crossbow-landing-page-5-rgba { color: rgba(148, 180, 255, 1); }
+section.ad:first-child {
+  margin-top: 0.5rem;
+}
+
+section.ad, fieldset, section#features {
+  border: 2px solid rgba(255, 103, 0, 1);
+  border-radius: 0.25rem;  
+}
+
+section.ad, section#features {
+  margin-bottom: 0.5rem;
+}
+
+div.pros p {
+  padding: 0.5rem;
+}
+
+section#features  {
+  margin-top: 1rem;
+}
+
+section#features div.pros:nth-child(1) h3 {
+  margin-top: 1rem;
+}
+
+div.iframecontainer {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56%;
+  height: 0;
+}
+
+div.iframecontainer iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+footer {
+  padding: 0.5rem;
+}

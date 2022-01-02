@@ -1,0 +1,65 @@
+@media only screen and (min-width: 32.5em) {
+  html {
+    background-color: rgba(5, 179, 69, 1);
+  }
+  
+  header {
+    padding: 0.5rem;
+  }
+
+  picture img {
+    width: 140px;
+  }
+
+  #nav-bar ul {
+    flex-direction: row;
+  }
+
+  a.nav-link {
+    padding: 1rem;
+    
+  }
+
+  main {
+    padding: 1rem;
+  }
+  
+  h1, h2, h3, p {
+    padding: 0.5rem;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  h3 {
+    font-size: 1.25rem;
+  }
+  
+  p, a.nav-link, label, legend, input#submit {
+    font-size: 1.1rem;
+  }
+
+  input#submit {
+    font-weight: 800;
+    display: block;
+    margin: 0.5rem auto;
+    padding: 1rem;
+  }
+
+  section.ad:first-child {
+    margin-top: 0;
+  }
+
+  .pricecontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+
+}
